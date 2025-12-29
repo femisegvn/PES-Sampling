@@ -1,5 +1,5 @@
 
-# Basin Hopping Algorithm for PES Global Optimisation
+# Basin-hopping Algorithm for PES Global Optimisation
 
 ### Pertubation Methods
 Considerations:
@@ -12,14 +12,14 @@ Considerations:
 2. selection criteria for perturbed atoms
     - wild -- random
     - stretch -- n/a -- all perturbed
-    - sweep -- furthest from centroid
+    - sweep -- *k*-furthest from centroid
     - swap -- random
 
 3. pertubation magnitude
-        - wild -- random (within central box)
-        - stretch -- random amount up to a user defined limit
-        - sweep -- random up to a user defined limit
-        - swap -- n/a -- swap
+    - wild -- random (within central box)
+    - stretch -- random amount up to a user defined limit
+    - sweep -- random up to a user defined limit
+    - swap -- n/a -- swap
 
 #### Wild
 Randomly selects one atom and changes all of its coordinates randomly within a restricted box space (if it was moved randomly across the entire box space, it may move outside the cutoff of all atoms in the structure and effectively reduces the LJ19 cluster to an LJ18 cluster.) i.e. moves a random atom in a random direction by a random amount.
