@@ -12,7 +12,7 @@ Considerations:
 2. selection criteria for perturbed atoms
     - wild -- random
     - stretch -- n/a -- all perturbed
-    - sweep -- furthest from centroid
+    - sweep -- _k_furthest from centroid
     - swap -- random
 
 3. pertubation magnitude
