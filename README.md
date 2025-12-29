@@ -1,5 +1,5 @@
 
-# Basin Hopping Algorithm for PES Global Optimisation
+# Basin-hopping Algorithm for PES Global Optimisation
 
 ### Pertubation Methods
 Considerations:
